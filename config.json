@@ -19,15 +19,15 @@
     ]
   },
   "adminBot": [
-    "100071880593545",
+    "100090284160878",
     ""
   ],
   "DEV": [
-    "100071880593545",
+    "100090284160878",
     ""
   ],
   "GOD": [
-    "100071880593545",
+    "100090284160878",
     ""
   ],
   "whiteListMode": {
@@ -35,11 +35,11 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Goat-Bot-V2",
+  "nickNameBot": "꧁༒☬Toxic Sabbir☬༒꧂",
   "prefix": "/",
   "autoSetNickname": true,
-  "authorFB": "https://www.facebook.com/profile.php?id=100071880593545",
-  "authorName": "AminulSardar",
+  "authorFB": "https://www.facebook.com/trader.sabbir.x1",
+  "authorName": "Sabbir Hossain",
   "authorEmail": "secret",
   "database": {
     "type": "sqlite",
@@ -106,11 +106,11 @@
     "notes": "This is the message when the bot is listening to the mqtt server and the mqtt server stops working due to account problems such as: locked acc, blocked due to spam,... bot will automatically send notifications to parts of your settings. You must change enable to true to use this feature. See bot/login/handlerWhenListenHasError.js file for details on how it works",
     "gmail": {
       "enable": true,
-      "emailGetNoti": "aminulsordar04@gmail.com",
+      "emailGetNoti": "sabbirrahmansb@gmail.com",
       "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \"example1@gmail.com example2@gmail.com\" (without backslash)"
     },
     "telegram": {
-      "enable": true,
+      "enable": false,
       "botToken": "7198162216:AAEro4ec81f_bgOlmrjiUUIWVKY0TdRnH_g",
       "chatId": "6036932600",
       "note": "Can send notifications to many chatId, separate by comma or space, example: \"123456789 987654321\" (without backslash)"
